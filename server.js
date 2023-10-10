@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3001;
 // Middleware setup
 app.use(express.json()); // Parse JSON data in request bodies
 app.use(express.urlencoded({ extended: true })); // Parse URL-encoded data in request bodies
-// app.use(express.static("public")); // Serve static files from the "public" directory
+app.use(express.static("public")); // Serve static files from the "public" directory
 
 // Include and use routes from the "./routes" module
 app.use(require("./routes"));
@@ -20,9 +20,9 @@ app.use(require("./routes"));
 mongoose.connect(
 	process.env.MONGODB_URI || "mongodb://localhost/social-network-API",
 	{
-		useFindAndModify: false, // Disable find and modify operations
-		useNewUrlParser: true, // Use the new URL parser
-		useUnifiedTopology: true, // Use the new server discovery and monitoring engine
+		// useFindAndModify: false, // Disable find and modify operations
+		// useNewUrlParser: true, // Use the new URL parser
+		// useUnifiedTopology: true, // Use the new server discovery and monitoring engine
 	}
 );
 

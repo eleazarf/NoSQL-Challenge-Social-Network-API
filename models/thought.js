@@ -9,7 +9,7 @@ const ReactionSchema = new Schema(
 		reactionId: {
 			type: Schema.Types.ObjectId,
 			default: () => new Types.ObjectId(),
-		},dateFormat
+		},
 		// Define the reactionBody field with specific properties
 		reactionBody: {
 			type: String,
