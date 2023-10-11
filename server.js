@@ -29,5 +29,5 @@ mongoose.connect(
 // Enable Mongoose debugging to log database activities
 mongoose.set("debug", true);
 
-// Start the server and listen on the specified port
+// Start the server and listen on thse specified port
 app.listen(PORT, () => console.log(`Connected on localhost:${PORT}`));

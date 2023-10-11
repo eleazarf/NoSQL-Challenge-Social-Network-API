@@ -1,5 +1,5 @@
 // Import required models from "../models/" module
-const { Thought, User } = require("../models/");
+const { Thought, User } = require("../models");
 
 // Create a thought controller object with various methods for handling thought-related operations
 const thoughtController = {

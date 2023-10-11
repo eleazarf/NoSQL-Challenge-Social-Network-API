@@ -2,8 +2,8 @@
 const router = require("express").Router();
 
 // Import user and thought routes from their respective modules
-const userRoute = require("./userRoute");
-const thoughtRoute = require("./thoughtRoute");
+const userRoute = require("./user");
+const thoughtRoute = require("./thought");
 
 // Mount user routes under the "/users" prefix
 router.use("/users", userRoute);
