@@ -24,4 +24,4 @@ npm start
 ![Start the application’s server](./images/image1.gif)
 
 ## Use
-As the application won't be deployed, [here](https://drive.google.com/file/d/1n7KpAFEJW3krvqBKQMWlfa5ZIEKLs7lY/view?usp=sharing) you can find a walkthrough video showcasing functionality.
+[Here](https://drive.google.com/file/d/1n7KpAFEJW3krvqBKQMWlfa5ZIEKLs7lY/view?usp=sharing) you can find a walkthrough video showcasing API functionality.
